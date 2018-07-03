@@ -1,6 +1,10 @@
 platform:ios,'9.0'
 use_frameworks!
 
-target 'Sona-Oc' do
-    pod 'CocoaHTTPServer'
+targets = ['libSona']
+
+targets.each do |tName|
+    target tName do
+        pod 'CocoaHTTPServer'
+    end
 end

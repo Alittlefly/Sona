@@ -1,0 +1,6 @@
+framework module Pods_libSona {
+  umbrella header "Pods-libSona-umbrella.h"
+
+  export *
+  module * { export * }
+}

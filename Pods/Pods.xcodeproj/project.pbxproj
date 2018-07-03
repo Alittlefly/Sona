@@ -26,6 +26,7 @@
 		2080E7AD99C273B6FD806B3590BA3BCA /* HTTPAsyncFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 178426EE71239955C59D472723575E58 /* HTTPAsyncFileResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		2BEA7A932C81C942F35E444F816A3B83 /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = D72BAFED5B620E0ADF00B341B1A005E3 /* DDASLLogCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DAA98C8614A6DED26CE8712531AE1FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D594952FB3E891191235789F6DC22E3D /* Foundation.framework */; };
+		364A07D6ACCED05CF749177D3673E6B4 /* Pods-libSona-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A528DAEF1EA52B193E774BDA853486E2 /* Pods-libSona-dummy.m */; };
 		3856965FEEBB90F810B884CD96FE121A /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = F661C81FF64CDE8CF89505F848C600F0 /* DDAbstractDatabaseLogger.m */; };
 		41C99D27D483448BDA70894CA932924D /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AFD89D4A38D05BFEB8F4B10A7F95BD /* HTTPAuthenticationRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		48EDEB6E693DE9C7C5108163D7EBFDC1 /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A2ACF03E80F6C1E6EEB49AC22028D1 /* DDLegacyMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -40,6 +41,7 @@
 		5F2F2E07D31FED69928AC5D6FA832BA8 /* HTTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C78F1538A17D32906690B37E30DA2D6 /* HTTPMessage.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		61DB921D87E3D9B48CF107897B26C211 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = FC157D511FD759E5B9621F300546B753 /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66B8E543A39BB8F138154937BFBF2710 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4D1BD226C561DC04834F931D6596E9 /* DDDispatchQueueLogFormatter.m */; };
+		673DC1116A40DDB40636C40CBF71FCAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D594952FB3E891191235789F6DC22E3D /* Foundation.framework */; };
 		691EB2540E2DA200DAF4B1CB5100C255 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D428719CE92CF786B0B152EE4ABDD8 /* CocoaLumberjack.framework */; };
 		6BF59059F591BA8D530FF31F554130A4 /* DAVResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F901F5ACAA8FF239E876F394C4C3FBD /* DAVResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		6CA8750B9E7EB5E54AAF7A92BE65CCCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D594952FB3E891191235789F6DC22E3D /* Foundation.framework */; };
@@ -51,7 +53,7 @@
 		7C58597BB73F288511F88D60CC5BA253 /* WebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A130EF2CBC2539E45FCC7F44B3B08334 /* WebSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		7E4F0161B4D135DA3A0763619A56C2F5 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9998169387EA26BEB1836BF02DB1679 /* CocoaAsyncSocket-dummy.m */; };
 		8101845FAA318F93F65B2F1A053DD53C /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E14F3BDAAF9C547514E7E6601AAF92 /* DDContextFilterLogFormatter.m */; };
-		814833A6EC527CE9B7941949DB561BAE /* Pods-Sona-Oc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95951A46DBC5F39056D7E8E7FC0C4DC5 /* Pods-Sona-Oc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814833A6EC527CE9B7941949DB561BAE /* Pods-Sona-Oc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D4EDD633C7C9D662502E209D4FA86C6 /* Pods-Sona-Oc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8480493AEC1C7AF1B5C0E0BF2F70FB44 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4DBC23A30FEE584152DD8E08A3B2F /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		857629910DCFD031BE246A76CD371D62 /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AAD0F6AE42776990C63A62CFB0928B6 /* DDLogMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		885342CCE9CBFF9339B389ADAF9B21C5 /* HTTPAuthenticationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0D7531B4169CAF5873826EE65868DF /* HTTPAuthenticationRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -79,7 +81,7 @@
 		C3E5B4139696AEDAA483A393B2D5C696 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D594952FB3E891191235789F6DC22E3D /* Foundation.framework */; };
 		C400444CF9DE3FD57B763E21F2D20B34 /* HTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C8008A77057684666A5A63B2DF395ED /* HTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC29BB2750D5CC428648C19182B789FD /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A703B8CEBE4148C1D1574F9F2F6AA /* DDData.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		CF99D77BF79392985C9501849AFFCC18 /* Pods-Sona-Oc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 258076BC54DCF6760E953DA2F085B812 /* Pods-Sona-Oc-dummy.m */; };
+		CF99D77BF79392985C9501849AFFCC18 /* Pods-Sona-Oc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF01F170A34CE37824C09D17C68E23 /* Pods-Sona-Oc-dummy.m */; };
 		D01B2EBC1AB52980422F5A831BBCE3F4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06CD5F45D7615290B5333C3A6AC83945 /* CFNetwork.framework */; };
 		D047BC4B43239E7A7EA68EF58805156F /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 427350EDEDC2647945D00E1183E77C68 /* HTTPServer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		D3A4D2905EE3AC3976C9182B198A7D11 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 67168BF8D3B61FFA98A03C9BB224F561 /* DDLog.m */; };
@@ -96,10 +98,18 @@
 		F059750C46237B6F319016207947C75A /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = E218CD49A15312186DD55352969622D9 /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F20DA1014A91B90D19635E76F0136D1F /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E4B7DC4FA9604EE74D9DA7BC5EA724 /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7E8C4F68B52C00037665346B9FB00A2 /* DDNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 27D7345348E8C328775D1638A0501DEA /* DDNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBC6801A7BC058B98724E2899EE2EB78 /* Pods-libSona-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1549A0AFEEF60A8E769D62FE182E2851 /* Pods-libSona-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		045144BB5A09CF995EBBE1000C32C590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0D2D2B4EE7C873431AB3502859CA60;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		04A6E5E81C19BC2291E78F5224C0D559 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -127,7 +137,21 @@
 			remoteGlobalIDString = 5D74122C6A37F2411D6625DF4D56032C;
 			remoteInfo = CocoaLumberjack;
 		};
+		6DF2D13C8CEC776D210F112A4D5BBBA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A5A064B73AE926EA3F0A749DDB3773B;
+			remoteInfo = CocoaHTTPServer;
+		};
 		8700676D49644E6E2BDF28AB42917F94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D74122C6A37F2411D6625DF4D56032C;
+			remoteInfo = CocoaLumberjack;
+		};
+		EC00CBD037CE325D1FE37860CF34266D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -140,7 +164,9 @@
 		00FB6FF48D835CE526B74EB05613D3A5 /* HTTPRedirectResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPRedirectResponse.m; path = Core/Responses/HTTPRedirectResponse.m; sourceTree = "<group>"; };
 		013E468A3E5273D608E579CABDD9F5B2 /* CocoaLumberjack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-umbrella.h"; sourceTree = "<group>"; };
 		017E1CCF1BAF1B1C5774377E9D2F2A47 /* DELETEResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DELETEResponse.h; path = Extensions/WebDAV/DELETEResponse.h; sourceTree = "<group>"; };
+		017E31455204981BA35E7721A0FACBEA /* Pods-Sona-Oc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sona-Oc.release.xcconfig"; sourceTree = "<group>"; };
 		03C5247AA8B0514C2A8C51A24F9165E3 /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Classes/DDASLLogger.h; sourceTree = "<group>"; };
+		045D1CC4E4F32281AE06E665BA8765F8 /* Pods-libSona-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libSona-resources.sh"; sourceTree = "<group>"; };
 		0620999BF8734EC0E498E0C54F9AC079 /* DDOSLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDOSLogger.m; path = Classes/DDOSLogger.m; sourceTree = "<group>"; };
 		06CD5F45D7615290B5333C3A6AC83945 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		079D8F9AC1E4395A790967B9A090BBD0 /* MultipartMessageHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MultipartMessageHeader.h; path = Core/Mime/MultipartMessageHeader.h; sourceTree = "<group>"; };
@@ -148,14 +174,14 @@
 		0CD0027DFD20B66C1160524E19A99B4E /* CocoaLumberjack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaLumberjack.xcconfig; sourceTree = "<group>"; };
 		0CEFD631E95F4681E787A122F528460E /* DDAssertMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAssertMacros.h; path = Classes/DDAssertMacros.h; sourceTree = "<group>"; };
 		0D4A1989EECA7ABA7214BCF4B43C2580 /* PUTResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PUTResponse.m; path = Extensions/WebDAV/PUTResponse.m; sourceTree = "<group>"; };
+		0D55389E76C69FE115DC9FC65E4CEA4A /* CocoaHTTPServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaHTTPServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F901F5ACAA8FF239E876F394C4C3FBD /* DAVResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DAVResponse.m; path = Extensions/WebDAV/DAVResponse.m; sourceTree = "<group>"; };
 		123DCD11064FD0D91F53197A7C1AE339 /* PUTResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PUTResponse.h; path = Extensions/WebDAV/PUTResponse.h; sourceTree = "<group>"; };
 		12B920F70E30D93AD25E134050D44DB1 /* CocoaHTTPServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaHTTPServer-dummy.m"; sourceTree = "<group>"; };
+		1549A0AFEEF60A8E769D62FE182E2851 /* Pods-libSona-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-libSona-umbrella.h"; sourceTree = "<group>"; };
 		15753CEB1BD8E33A26FE62A331673C68 /* DDRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDRange.h; path = Core/Categories/DDRange.h; sourceTree = "<group>"; };
-		15F59ED9E84DB78528977B81CF473D62 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		178426EE71239955C59D472723575E58 /* HTTPAsyncFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPAsyncFileResponse.m; path = Core/Responses/HTTPAsyncFileResponse.m; sourceTree = "<group>"; };
 		189B8C2C15477F230D75036975296A15 /* HTTPFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPFileResponse.h; path = Core/Responses/HTTPFileResponse.h; sourceTree = "<group>"; };
-		258076BC54DCF6760E953DA2F085B812 /* Pods-Sona-Oc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sona-Oc-dummy.m"; sourceTree = "<group>"; };
 		27D7345348E8C328775D1638A0501DEA /* DDNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDNumber.h; path = Core/Categories/DDNumber.h; sourceTree = "<group>"; };
 		2E3B89A008A8B352A5C0E90A877E0E25 /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = Classes/DDTTYLogger.h; sourceTree = "<group>"; };
 		2EBA0AA25CE7EF054C4BCA1814301BA6 /* HTTPConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPConnection.h; path = Core/HTTPConnection.h; sourceTree = "<group>"; };
@@ -166,53 +192,59 @@
 		3B9341872E81294F9FE2773B6DEFBADD /* DDRange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDRange.m; path = Core/Categories/DDRange.m; sourceTree = "<group>"; };
 		3F98387C0851F3F4B0AE4221105F4607 /* CocoaHTTPServer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaHTTPServer-prefix.pch"; sourceTree = "<group>"; };
 		427350EDEDC2647945D00E1183E77C68 /* HTTPServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPServer.m; path = Core/HTTPServer.m; sourceTree = "<group>"; };
-		42D71AC6AC61275445D1398E10239B44 /* Pods_Sona_Oc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sona_Oc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44106ACB80DAC8B23F947489B84BA253 /* DAVResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DAVResponse.h; path = Extensions/WebDAV/DAVResponse.h; sourceTree = "<group>"; };
+		4585089669B5E65C106E75B83E4884E6 /* Pods-Sona-Oc-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sona-Oc-acknowledgements.markdown"; sourceTree = "<group>"; };
 		465947B266562A5214F007EFE95FDC3C /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
-		4D6590B6E29C1C8F6C8F86EC314C09FE /* Pods-Sona-Oc-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sona-Oc-resources.sh"; sourceTree = "<group>"; };
+		4D4EDD633C7C9D662502E209D4FA86C6 /* Pods-Sona-Oc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sona-Oc-umbrella.h"; sourceTree = "<group>"; };
 		5194A3142DB6460271127020A26AD621 /* HTTPDataResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPDataResponse.h; path = Core/Responses/HTTPDataResponse.h; sourceTree = "<group>"; };
 		53B0979496B939439C2A88CB8878A378 /* DDASLLogCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogCapture.m; path = Classes/DDASLLogCapture.m; sourceTree = "<group>"; };
 		547A567F8864B0CA2EE46340C5F6FF79 /* CocoaLumberjack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaLumberjack-dummy.m"; sourceTree = "<group>"; };
+		54B6BBABD7644460D1450DD7F88DCCAC /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56F49BB6030C81BAC284817CB42A2A1D /* CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
 		57642F433BB0C203F747366FFAF8E68C /* DAVConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DAVConnection.m; path = Extensions/WebDAV/DAVConnection.m; sourceTree = "<group>"; };
+		589E89D7BC5C9B7F49E0F76446404ABB /* Pods-libSona.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libSona.release.xcconfig"; sourceTree = "<group>"; };
 		59940D2AB2E2C8BE038AB22B49544401 /* HTTPResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPResponse.h; path = Core/HTTPResponse.h; sourceTree = "<group>"; };
 		5DB68850BE3CE2FD9A3158B6899BAE18 /* HTTPRedirectResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPRedirectResponse.h; path = Core/Responses/HTTPRedirectResponse.h; sourceTree = "<group>"; };
 		63D3201D827856BD3286B02043E619EB /* HTTPAsyncFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPAsyncFileResponse.h; path = Core/Responses/HTTPAsyncFileResponse.h; sourceTree = "<group>"; };
 		6642EDEA8A4D8607786A225B5FD42D10 /* WebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebSocket.h; path = Core/WebSocket.h; sourceTree = "<group>"; };
+		665D86226E20BDCA21311944A4F87ED6 /* Pods-libSona-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libSona-acknowledgements.plist"; sourceTree = "<group>"; };
 		67168BF8D3B61FFA98A03C9BB224F561 /* DDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = Classes/DDLog.m; sourceTree = "<group>"; };
 		6AFB4D77E2A86B4A0C3BDD1259C1F154 /* DDASLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogger.m; path = Classes/DDASLLogger.m; sourceTree = "<group>"; };
 		6C18A7A974C1442FA5B80BCD5D9B6D65 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
-		6C322E114186400208608433415F7541 /* Pods-Sona-Oc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sona-Oc.release.xcconfig"; sourceTree = "<group>"; };
 		6C78F1538A17D32906690B37E30DA2D6 /* HTTPMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPMessage.m; path = Core/HTTPMessage.m; sourceTree = "<group>"; };
 		6D67F847C80CABBFD4E6AA0FE174BE49 /* DDTTYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDTTYLogger.m; path = Classes/DDTTYLogger.m; sourceTree = "<group>"; };
 		6EAA6F4A8EDB06B94E3C56A74C743088 /* CocoaHTTPServer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaHTTPServer.modulemap; sourceTree = "<group>"; };
 		74B6922B247DD52A3AB60C00F66D9BBE /* MultipartFormDataParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MultipartFormDataParser.m; path = Core/Mime/MultipartFormDataParser.m; sourceTree = "<group>"; };
-		75AF4D5CDAC7C6AC975D2187A50167D5 /* Pods-Sona-Oc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sona-Oc.debug.xcconfig"; sourceTree = "<group>"; };
 		76E4B7DC4FA9604EE74D9DA7BC5EA724 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDDispatchQueueLogFormatter.h; path = Classes/Extensions/DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
 		7C8008A77057684666A5A63B2DF395ED /* HTTPServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPServer.h; path = Core/HTTPServer.h; sourceTree = "<group>"; };
+		81747D10B2F7D0D4C0D8854F1909EACA /* Pods-libSona.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-libSona.modulemap"; sourceTree = "<group>"; };
+		858670DABB054F44D89BAF55ED37FF27 /* Pods-Sona-Oc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sona-Oc.debug.xcconfig"; sourceTree = "<group>"; };
 		87E14F3BDAAF9C547514E7E6601AAF92 /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDContextFilterLogFormatter.m; path = Classes/Extensions/DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
 		88B399A9F6ECC39C710F1A0DEB6242F4 /* HTTPConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPConnection.m; path = Core/HTTPConnection.m; sourceTree = "<group>"; };
 		89F5CAE0DD7D6EA3F96987489F166FF0 /* MultipartMessageHeaderField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MultipartMessageHeaderField.m; path = Core/Mime/MultipartMessageHeaderField.m; sourceTree = "<group>"; };
 		8AAD0F6AE42776990C63A62CFB0928B6 /* DDLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLogMacros.h; path = Classes/DDLogMacros.h; sourceTree = "<group>"; };
 		8AE84E92FFCDD2E684837DEDB46E0D93 /* HTTPFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPFileResponse.m; path = Core/Responses/HTTPFileResponse.m; sourceTree = "<group>"; };
 		8B1AEB842934C00FC7E116843B346FDC /* MultipartFormDataParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MultipartFormDataParser.h; path = Core/Mime/MultipartFormDataParser.h; sourceTree = "<group>"; };
-		8FFDAA489F2C7850252A4397253798EF /* CocoaLumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DAF01F170A34CE37824C09D17C68E23 /* Pods-Sona-Oc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sona-Oc-dummy.m"; sourceTree = "<group>"; };
 		90D428719CE92CF786B0B152EE4ABDD8 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91A78266E479F2E50EB3AF0C2D996F10 /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = Classes/DDLog.h; sourceTree = "<group>"; };
 		930326E8FE3A731A7F6A907C19E4E296 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93D768BEBAB664473B681AEBE04EF9F9 /* Pods-Sona-Oc-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sona-Oc-acknowledgements.plist"; sourceTree = "<group>"; };
-		95951A46DBC5F39056D7E8E7FC0C4DC5 /* Pods-Sona-Oc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sona-Oc-umbrella.h"; sourceTree = "<group>"; };
 		97A2ACF03E80F6C1E6EEB49AC22028D1 /* DDLegacyMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLegacyMacros.h; path = Classes/DDLegacyMacros.h; sourceTree = "<group>"; };
+		9D065B540A210C3A0416CD3E597C9248 /* Pods-Sona-Oc-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sona-Oc-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D309DD6957CEDEAD0DB4B22C1D4ED9A /* DDLog+LOGV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDLog+LOGV.h"; path = "Classes/DDLog+LOGV.h"; sourceTree = "<group>"; };
 		A130EF2CBC2539E45FCC7F44B3B08334 /* WebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebSocket.m; path = Core/WebSocket.m; sourceTree = "<group>"; };
 		A2879D8E19606BF3AC53F3E825E9BED0 /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
 		A4EB443933DE7D8F0D95402F4E7AA1AF /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		A528DAEF1EA52B193E774BDA853486E2 /* Pods-libSona-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libSona-dummy.m"; sourceTree = "<group>"; };
 		AD43BEC7A2C548C0CE03628533B99D73 /* DDData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDData.h; path = Core/Categories/DDData.h; sourceTree = "<group>"; };
-		B11E9E90D1718A5E9014D101BE7042EE /* Pods-Sona-Oc-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sona-Oc-frameworks.sh"; sourceTree = "<group>"; };
+		AE664053270FA237C5873BB86EAB6B5E /* Pods-libSona.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libSona.debug.xcconfig"; sourceTree = "<group>"; };
+		B15147586392A3DB5E1D8851324126B3 /* Pods_libSona.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libSona.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D403B54BD754C73C248C53797270F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B673D3D5F07D2D3F9EAC5AE7904A8036 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B793B3CC9D8CF1B5D419B224400F9AE6 /* CocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaLumberjack.h; path = Classes/CocoaLumberjack.h; sourceTree = "<group>"; };
 		BCC589459A3C2DE0ED5CD86CC30F8E12 /* MultipartMessageHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MultipartMessageHeader.m; path = Core/Mime/MultipartMessageHeader.m; sourceTree = "<group>"; };
+		BD243462B2E7C214FE1A4F62C9E6F2F3 /* Pods-Sona-Oc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Sona-Oc.modulemap"; sourceTree = "<group>"; };
 		BD98A0091AE43B73B44195BD847F6476 /* CocoaHTTPServer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaHTTPServer.xcconfig; sourceTree = "<group>"; };
 		BDB8B0287D3A1ECFBA70D2F7E71458A3 /* CocoaLumberjack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaLumberjack.modulemap; sourceTree = "<group>"; };
 		C2451D5E5BB23F17CC21D70F5544021D /* DDFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDFileLogger.m; path = Classes/DDFileLogger.m; sourceTree = "<group>"; };
@@ -220,16 +252,17 @@
 		C4AFD89D4A38D05BFEB8F4B10A7F95BD /* HTTPAuthenticationRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPAuthenticationRequest.m; path = Core/HTTPAuthenticationRequest.m; sourceTree = "<group>"; };
 		C716FCBDFF6250A50835D275DA5ED8B7 /* HTTPMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPMessage.h; path = Core/HTTPMessage.h; sourceTree = "<group>"; };
 		C9998169387EA26BEB1836BF02DB1679 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
-		CBA3046BDBE221EAEFFC42D12660F64D /* Pods-Sona-Oc-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sona-Oc-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CCF50F05C634A57DABCFBE685AE13810 /* CocoaHTTPServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaHTTPServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC58101351841B9B401652B7B309DAFB /* Pods-libSona-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libSona-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CD0D7531B4169CAF5873826EE65868DF /* HTTPAuthenticationRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPAuthenticationRequest.h; path = Core/HTTPAuthenticationRequest.h; sourceTree = "<group>"; };
 		CD77D36C9432D54EF3A2D99EAE680C52 /* DDOSLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDOSLogger.h; path = Classes/DDOSLogger.h; sourceTree = "<group>"; };
+		D062F67B9D4AEFFA3CFADD5FE3483323 /* Pods-Sona-Oc-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sona-Oc-resources.sh"; sourceTree = "<group>"; };
+		D1B14EBEFCC49E6F7543A76860F7FFF7 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D594952FB3E891191235789F6DC22E3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D72BAFED5B620E0ADF00B341B1A005E3 /* DDASLLogCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogCapture.h; path = Classes/DDASLLogCapture.h; sourceTree = "<group>"; };
 		D91A703B8CEBE4148C1D1574F9F2F6AA /* DDData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDData.m; path = Core/Categories/DDData.m; sourceTree = "<group>"; };
 		DAA4E72E0A07E0AB343A8ABD93580359 /* DELETEResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DELETEResponse.m; path = Extensions/WebDAV/DELETEResponse.m; sourceTree = "<group>"; };
 		DB49128ADB4562B60A6463D2C87E35F3 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
-		DEAA9930F678E45FB96186E468B76BDF /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3ED23196AA56F3030358BB2B47EFC7 /* Pods-Sona-Oc-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sona-Oc-frameworks.sh"; sourceTree = "<group>"; };
 		E0DC58462D1662F838BD21F907CB7D18 /* HTTPLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPLogging.h; path = Core/HTTPLogging.h; sourceTree = "<group>"; };
 		E173B80DB38218DD102F245F660D2389 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		E218CD49A15312186DD55352969622D9 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = Classes/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
@@ -241,14 +274,23 @@
 		F0D1F8DF34DEF8B86700F478962D1EEF /* HTTPDynamicFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPDynamicFileResponse.m; path = Core/Responses/HTTPDynamicFileResponse.m; sourceTree = "<group>"; };
 		F16F8DBBAC11B99636FF715F96541143 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDContextFilterLogFormatter.h; path = Classes/Extensions/DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
 		F17B90F33BA88C7FDE65B150D0E6A449 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1F53B50D702B1A2400D052B1B213AA0 /* Pods-Sona-Oc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Sona-Oc.modulemap"; sourceTree = "<group>"; };
+		F37B58DEA06C5DBE27E8F210F66C07D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F538AE2B7FBC7211EB5094092E72DBF8 /* DDNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDNumber.m; path = Core/Categories/DDNumber.m; sourceTree = "<group>"; };
+		F5C48CFABC9F4ACCA689F88CE6F7829F /* Pods_Sona_Oc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sona_Oc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F661C81FF64CDE8CF89505F848C600F0 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDAbstractDatabaseLogger.m; path = Classes/DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
 		FC157D511FD759E5B9621F300546B753 /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileLogger.h; path = Classes/DDFileLogger.h; sourceTree = "<group>"; };
 		FD5665C36A17953892F4428E5C579C4D /* HTTPDataResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPDataResponse.m; path = Core/Responses/HTTPDataResponse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9C5C33CB8ED1C3D19572A32BAD3BCE96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673DC1116A40DDB40636C40CBF71FCAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BB4665D1685BDDF5C7FF890EB78AC433 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -336,6 +378,23 @@
 				6D67F847C80CABBFD4E6AA0FE174BE49 /* DDTTYLogger.m */,
 			);
 			name = Default;
+			sourceTree = "<group>";
+		};
+		286E358211BED9C5D418F39765CACE0E /* Pods-libSona */ = {
+			isa = PBXGroup;
+			children = (
+				F37B58DEA06C5DBE27E8F210F66C07D4 /* Info.plist */,
+				81747D10B2F7D0D4C0D8854F1909EACA /* Pods-libSona.modulemap */,
+				CC58101351841B9B401652B7B309DAFB /* Pods-libSona-acknowledgements.markdown */,
+				665D86226E20BDCA21311944A4F87ED6 /* Pods-libSona-acknowledgements.plist */,
+				A528DAEF1EA52B193E774BDA853486E2 /* Pods-libSona-dummy.m */,
+				045D1CC4E4F32281AE06E665BA8765F8 /* Pods-libSona-resources.sh */,
+				1549A0AFEEF60A8E769D62FE182E2851 /* Pods-libSona-umbrella.h */,
+				AE664053270FA237C5873BB86EAB6B5E /* Pods-libSona.debug.xcconfig */,
+				589E89D7BC5C9B7F49E0F76446404ABB /* Pods-libSona.release.xcconfig */,
+			);
+			name = "Pods-libSona";
+			path = "Target Support Files/Pods-libSona";
 			sourceTree = "<group>";
 		};
 		4CC0B9EC156EEC53FFA2D1F0370DB10D /* Support Files */ = {
@@ -432,8 +491,8 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				E8AD4A50F32AF0C5B880B2652B2A0A8B /* Frameworks */,
 				7FF97F2B0A675CEFAA812EDF457E6620 /* Pods */,
-				DDCCC2C8AC87FA20F54B33BE01FE6B10 /* Products */,
-				9DD01855DBC342762703B943A903F0E8 /* Targets Support Files */,
+				DA8EADFA6543425D782C2FFB09AA66E6 /* Products */,
+				D1CB5C6EC650AFDAE74D8B948F4C97A3 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -445,14 +504,6 @@
 				7856015829AD1019C7DC130B8AFD83DE /* CocoaLumberjack */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		9DD01855DBC342762703B943A903F0E8 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DDD8203507A3A31371219E98163AB215 /* Pods-Sona-Oc */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		ADCEF68FA3B7CC1317E039195FE05401 /* Extensions */ = {
@@ -482,33 +533,25 @@
 			path = "../Target Support Files/CocoaHTTPServer";
 			sourceTree = "<group>";
 		};
-		DDCCC2C8AC87FA20F54B33BE01FE6B10 /* Products */ = {
+		D1CB5C6EC650AFDAE74D8B948F4C97A3 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DEAA9930F678E45FB96186E468B76BDF /* CocoaAsyncSocket.framework */,
-				CCF50F05C634A57DABCFBE685AE13810 /* CocoaHTTPServer.framework */,
-				8FFDAA489F2C7850252A4397253798EF /* CocoaLumberjack.framework */,
-				42D71AC6AC61275445D1398E10239B44 /* Pods_Sona_Oc.framework */,
+				286E358211BED9C5D418F39765CACE0E /* Pods-libSona */,
+				F7014A3D497BAF64866C5F855A8CCDFC /* Pods-Sona-Oc */,
 			);
-			name = Products;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		DDD8203507A3A31371219E98163AB215 /* Pods-Sona-Oc */ = {
+		DA8EADFA6543425D782C2FFB09AA66E6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				15F59ED9E84DB78528977B81CF473D62 /* Info.plist */,
-				F1F53B50D702B1A2400D052B1B213AA0 /* Pods-Sona-Oc.modulemap */,
-				CBA3046BDBE221EAEFFC42D12660F64D /* Pods-Sona-Oc-acknowledgements.markdown */,
-				93D768BEBAB664473B681AEBE04EF9F9 /* Pods-Sona-Oc-acknowledgements.plist */,
-				258076BC54DCF6760E953DA2F085B812 /* Pods-Sona-Oc-dummy.m */,
-				B11E9E90D1718A5E9014D101BE7042EE /* Pods-Sona-Oc-frameworks.sh */,
-				4D6590B6E29C1C8F6C8F86EC314C09FE /* Pods-Sona-Oc-resources.sh */,
-				95951A46DBC5F39056D7E8E7FC0C4DC5 /* Pods-Sona-Oc-umbrella.h */,
-				75AF4D5CDAC7C6AC975D2187A50167D5 /* Pods-Sona-Oc.debug.xcconfig */,
-				6C322E114186400208608433415F7541 /* Pods-Sona-Oc.release.xcconfig */,
+				54B6BBABD7644460D1450DD7F88DCCAC /* CocoaAsyncSocket.framework */,
+				0D55389E76C69FE115DC9FC65E4CEA4A /* CocoaHTTPServer.framework */,
+				D1B14EBEFCC49E6F7543A76860F7FFF7 /* CocoaLumberjack.framework */,
+				B15147586392A3DB5E1D8851324126B3 /* Pods_libSona.framework */,
+				F5C48CFABC9F4ACCA689F88CE6F7829F /* Pods_Sona_Oc.framework */,
 			);
-			name = "Pods-Sona-Oc";
-			path = "Target Support Files/Pods-Sona-Oc";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		E8AD4A50F32AF0C5B880B2652B2A0A8B /* Frameworks */ = {
@@ -519,6 +562,24 @@
 				25711A710DA8226AC74DDFE9C9526170 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7014A3D497BAF64866C5F855A8CCDFC /* Pods-Sona-Oc */ = {
+			isa = PBXGroup;
+			children = (
+				B5D403B54BD754C73C248C53797270F0 /* Info.plist */,
+				BD243462B2E7C214FE1A4F62C9E6F2F3 /* Pods-Sona-Oc.modulemap */,
+				4585089669B5E65C106E75B83E4884E6 /* Pods-Sona-Oc-acknowledgements.markdown */,
+				9D065B540A210C3A0416CD3E597C9248 /* Pods-Sona-Oc-acknowledgements.plist */,
+				8DAF01F170A34CE37824C09D17C68E23 /* Pods-Sona-Oc-dummy.m */,
+				DE3ED23196AA56F3030358BB2B47EFC7 /* Pods-Sona-Oc-frameworks.sh */,
+				D062F67B9D4AEFFA3CFADD5FE3483323 /* Pods-Sona-Oc-resources.sh */,
+				4D4EDD633C7C9D662502E209D4FA86C6 /* Pods-Sona-Oc-umbrella.h */,
+				858670DABB054F44D89BAF55ED37FF27 /* Pods-Sona-Oc.debug.xcconfig */,
+				017E31455204981BA35E7721A0FACBEA /* Pods-Sona-Oc.release.xcconfig */,
+			);
+			name = "Pods-Sona-Oc";
+			path = "Target Support Files/Pods-Sona-Oc";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -587,6 +648,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AAC2822C2BFEE96F5975480294F4711B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC6801A7BC058B98724E2899EE2EB78 /* Pods-libSona-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B784A9E606B2B869869D6E8ABBCBD86B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -614,7 +683,7 @@
 			);
 			name = CocoaHTTPServer;
 			productName = CocoaHTTPServer;
-			productReference = CCF50F05C634A57DABCFBE685AE13810 /* CocoaHTTPServer.framework */;
+			productReference = 0D55389E76C69FE115DC9FC65E4CEA4A /* CocoaHTTPServer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		59D5FA0A505B60F52E9E553594DEB532 /* Pods-Sona-Oc */ = {
@@ -634,7 +703,7 @@
 			);
 			name = "Pods-Sona-Oc";
 			productName = "Pods-Sona-Oc";
-			productReference = 42D71AC6AC61275445D1398E10239B44 /* Pods_Sona_Oc.framework */;
+			productReference = F5C48CFABC9F4ACCA689F88CE6F7829F /* Pods_Sona_Oc.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5D74122C6A37F2411D6625DF4D56032C /* CocoaLumberjack */ = {
@@ -651,7 +720,27 @@
 			);
 			name = CocoaLumberjack;
 			productName = CocoaLumberjack;
-			productReference = 8FFDAA489F2C7850252A4397253798EF /* CocoaLumberjack.framework */;
+			productReference = D1B14EBEFCC49E6F7543A76860F7FFF7 /* CocoaLumberjack.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8AF03893C55372C469FA722CC3010524 /* Pods-libSona */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A24BC39DD73FAD1EA9F4330CAB44426D /* Build configuration list for PBXNativeTarget "Pods-libSona" */;
+			buildPhases = (
+				C41ABCB847003BB7CA2BF4629800D8DD /* Sources */,
+				9C5C33CB8ED1C3D19572A32BAD3BCE96 /* Frameworks */,
+				AAC2822C2BFEE96F5975480294F4711B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D48FE10DF78400F30555FF5D587BABE6 /* PBXTargetDependency */,
+				97491663666E78BB5EEF1E2919B603DD /* PBXTargetDependency */,
+				633E8BE98E1DC6EAA8F52B2AC67C345F /* PBXTargetDependency */,
+			);
+			name = "Pods-libSona";
+			productName = "Pods-libSona";
+			productReference = B15147586392A3DB5E1D8851324126B3 /* Pods_libSona.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */ = {
@@ -668,7 +757,7 @@
 			);
 			name = CocoaAsyncSocket;
 			productName = CocoaAsyncSocket;
-			productReference = DEAA9930F678E45FB96186E468B76BDF /* CocoaAsyncSocket.framework */;
+			productReference = 54B6BBABD7644460D1450DD7F88DCCAC /* CocoaAsyncSocket.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -688,13 +777,14 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = DDCCC2C8AC87FA20F54B33BE01FE6B10 /* Products */;
+			productRefGroup = DA8EADFA6543425D782C2FFB09AA66E6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */,
 				2A5A064B73AE926EA3F0A749DDB3773B /* CocoaHTTPServer */,
 				5D74122C6A37F2411D6625DF4D56032C /* CocoaLumberjack */,
+				8AF03893C55372C469FA722CC3010524 /* Pods-libSona */,
 				59D5FA0A505B60F52E9E553594DEB532 /* Pods-Sona-Oc */,
 			);
 		};
@@ -755,6 +845,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C41ABCB847003BB7CA2BF4629800D8DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364A07D6ACCED05CF749177D3673E6B4 /* Pods-libSona-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FD452A203117FF8DFA26B0711D439093 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -780,6 +878,18 @@
 			target = 5D74122C6A37F2411D6625DF4D56032C /* CocoaLumberjack */;
 			targetProxy = 51D28B937CAD88372F71C891DFB85735 /* PBXContainerItemProxy */;
 		};
+		633E8BE98E1DC6EAA8F52B2AC67C345F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaLumberjack;
+			target = 5D74122C6A37F2411D6625DF4D56032C /* CocoaLumberjack */;
+			targetProxy = EC00CBD037CE325D1FE37860CF34266D /* PBXContainerItemProxy */;
+		};
+		97491663666E78BB5EEF1E2919B603DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaHTTPServer;
+			target = 2A5A064B73AE926EA3F0A749DDB3773B /* CocoaHTTPServer */;
+			targetProxy = 6DF2D13C8CEC776D210F112A4D5BBBA9 /* PBXContainerItemProxy */;
+		};
 		A035AFF3698C4346B0D9483752846F8C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CocoaAsyncSocket;
@@ -791,6 +901,12 @@
 			name = CocoaHTTPServer;
 			target = 2A5A064B73AE926EA3F0A749DDB3773B /* CocoaHTTPServer */;
 			targetProxy = 3CDF102EB6E2CBD44867C25650A29035 /* PBXContainerItemProxy */;
+		};
+		D48FE10DF78400F30555FF5D587BABE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */;
+			targetProxy = 04A6E5E81C19BC2291E78F5224C0D559 /* PBXContainerItemProxy */;
 		};
 		F056010729523842CBD7F8CEC5D87D79 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -866,7 +982,7 @@
 		};
 		2B11F1421E065E01B58254B3968AB075 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75AF4D5CDAC7C6AC975D2187A50167D5 /* Pods-Sona-Oc.debug.xcconfig */;
+			baseConfigurationReference = 858670DABB054F44D89BAF55ED37FF27 /* Pods-Sona-Oc.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -928,9 +1044,42 @@
 			};
 			name = Release;
 		};
+		35DA3438ACC4B61090F7462524928613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE664053270FA237C5873BB86EAB6B5E /* Pods-libSona.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-libSona/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-libSona/Pods-libSona.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		6E1A33C7D96CA4C00BB5B8610836268B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C322E114186400208608433415F7541 /* Pods-Sona-Oc.release.xcconfig */;
+			baseConfigurationReference = 017E31455204981BA35E7721A0FACBEA /* Pods-Sona-Oc.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -998,6 +1147,40 @@
 			};
 			name = Release;
 		};
+		BA3A9693C89BBDFFAA9CB1F9B43CCD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 589E89D7BC5C9B7F49E0F76446404ABB /* Pods-libSona.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-libSona/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-libSona/Pods-libSona.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		CC40459FC027C15D200B70D449B22016 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A2879D8E19606BF3AC53F3E825E9BED0 /* CocoaAsyncSocket.xcconfig */;
@@ -1012,10 +1195,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					"COCOAPODS=1",
-				);
 				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1046,10 +1225,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					"COCOAPODS=1",
-				);
 				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1225,6 +1400,15 @@
 			buildConfigurations = (
 				F8E6D67664E17D31B14AA2F2861A94A7 /* Debug */,
 				32E48A8380BCF503B86170717C2ECE83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A24BC39DD73FAD1EA9F4330CAB44426D /* Build configuration list for PBXNativeTarget "Pods-libSona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35DA3438ACC4B61090F7462524928613 /* Debug */,
+				BA3A9693C89BBDFFAA9CB1F9B43CCD22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

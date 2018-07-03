@@ -4,10 +4,38 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Sona-Oc 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>Sona-Oc.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>5</integer>
+		</dict>
+		<key>libSona.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>04EA442F20EA0B210037FA62</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>04EA444720EA0B230037FA62</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>04EA445B20EA2C210037FA62</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

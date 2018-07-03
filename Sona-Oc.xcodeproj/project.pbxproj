@@ -14,7 +14,15 @@
 		04EA444020EA0B230037FA62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EA443E20EA0B230037FA62 /* LaunchScreen.storyboard */; };
 		04EA444320EA0B230037FA62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA444220EA0B230037FA62 /* main.m */; };
 		04EA444D20EA0B230037FA62 /* Sona_OcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA444C20EA0B230037FA62 /* Sona_OcUITests.m */; };
+		04EA446020EA2C220037FA62 /* libSona.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EA445E20EA2C220037FA62 /* libSona.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04EA446320EA2C220037FA62 /* libSona.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EA445C20EA2C210037FA62 /* libSona.framework */; };
+		04EA446C20EA2F230037FA62 /* SonaHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EA446A20EA2F230037FA62 /* SonaHTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04EA446D20EA2F230037FA62 /* SonaHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA446B20EA2F230037FA62 /* SonaHTTPServer.m */; };
+		04EA447020EA2FA80037FA62 /* SonaSource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04EA446F20EA2FA80037FA62 /* SonaSource.bundle */; };
+		04EA447320EA439E0037FA62 /* SonaConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EA447120EA439E0037FA62 /* SonaConnection.h */; };
+		04EA447420EA439E0037FA62 /* SonaConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA447220EA439E0037FA62 /* SonaConnection.m */; };
 		1FF329A36C15A654780CCE29 /* Pods_Sona_Oc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7EB8969BB73F375C7AD28E /* Pods_Sona_Oc.framework */; };
+		C29DFDC032AF78A55EEA0A8E /* Pods_libSona.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DFE702A16E6842A4F61D48 /* Pods_libSona.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +35,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		04EA446820EA2C220037FA62 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		00DFE702A16E6842A4F61D48 /* Pods_libSona.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libSona.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EA443020EA0B210037FA62 /* Sona-Oc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sona-Oc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EA443320EA0B210037FA62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04EA443420EA0B210037FA62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -41,6 +63,16 @@
 		04EA444820EA0B230037FA62 /* Sona-OcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sona-OcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EA444C20EA0B230037FA62 /* Sona_OcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sona_OcUITests.m; sourceTree = "<group>"; };
 		04EA444E20EA0B230037FA62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EA445C20EA2C210037FA62 /* libSona.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libSona.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EA445E20EA2C220037FA62 /* libSona.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libSona.h; sourceTree = "<group>"; };
+		04EA445F20EA2C220037FA62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EA446A20EA2F230037FA62 /* SonaHTTPServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SonaHTTPServer.h; sourceTree = "<group>"; };
+		04EA446B20EA2F230037FA62 /* SonaHTTPServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SonaHTTPServer.m; sourceTree = "<group>"; };
+		04EA446F20EA2FA80037FA62 /* SonaSource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SonaSource.bundle; sourceTree = "<group>"; };
+		04EA447120EA439E0037FA62 /* SonaConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SonaConnection.h; sourceTree = "<group>"; };
+		04EA447220EA439E0037FA62 /* SonaConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SonaConnection.m; sourceTree = "<group>"; };
+		1D2B3C7E6D3D694754885632 /* Pods-libSona.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libSona.release.xcconfig"; path = "Pods/Target Support Files/Pods-libSona/Pods-libSona.release.xcconfig"; sourceTree = "<group>"; };
+		3E60B7563D8F8C7C901CA773 /* Pods-libSona.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libSona.debug.xcconfig"; path = "Pods/Target Support Files/Pods-libSona/Pods-libSona.debug.xcconfig"; sourceTree = "<group>"; };
 		9CF260FB6A975996AB856828 /* Pods-Sona-Oc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sona-Oc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sona-Oc/Pods-Sona-Oc.debug.xcconfig"; sourceTree = "<group>"; };
 		FAC83E2438154DF71C94F7E4 /* Pods-Sona-Oc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sona-Oc.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sona-Oc/Pods-Sona-Oc.release.xcconfig"; sourceTree = "<group>"; };
 		FB7EB8969BB73F375C7AD28E /* Pods_Sona_Oc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sona_Oc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +84,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FF329A36C15A654780CCE29 /* Pods_Sona_Oc.framework in Frameworks */,
+				04EA446320EA2C220037FA62 /* libSona.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +95,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		04EA445820EA2C210037FA62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C29DFDC032AF78A55EEA0A8E /* Pods_libSona.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -69,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				FB7EB8969BB73F375C7AD28E /* Pods_Sona_Oc.framework */,
+				00DFE702A16E6842A4F61D48 /* Pods_libSona.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -78,6 +120,7 @@
 			children = (
 				04EA443220EA0B210037FA62 /* Sona-Oc */,
 				04EA444B20EA0B230037FA62 /* Sona-OcUITests */,
+				04EA445D20EA2C220037FA62 /* libSona */,
 				04EA443120EA0B210037FA62 /* Products */,
 				38753324731F7C46BF94371B /* Pods */,
 				03A78613658F74AC74F26392 /* Frameworks */,
@@ -89,6 +132,7 @@
 			children = (
 				04EA443020EA0B210037FA62 /* Sona-Oc.app */,
 				04EA444820EA0B230037FA62 /* Sona-OcUITests.xctest */,
+				04EA445C20EA2C210037FA62 /* libSona.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,16 +162,61 @@
 			path = "Sona-OcUITests";
 			sourceTree = "<group>";
 		};
+		04EA445D20EA2C220037FA62 /* libSona */ = {
+			isa = PBXGroup;
+			children = (
+				04EA446E20EA2F320037FA62 /* Source */,
+				04EA446920EA2F040037FA62 /* SonaHTTPSever */,
+				04EA445E20EA2C220037FA62 /* libSona.h */,
+				04EA445F20EA2C220037FA62 /* Info.plist */,
+			);
+			path = libSona;
+			sourceTree = "<group>";
+		};
+		04EA446920EA2F040037FA62 /* SonaHTTPSever */ = {
+			isa = PBXGroup;
+			children = (
+				04EA446A20EA2F230037FA62 /* SonaHTTPServer.h */,
+				04EA446B20EA2F230037FA62 /* SonaHTTPServer.m */,
+				04EA447120EA439E0037FA62 /* SonaConnection.h */,
+				04EA447220EA439E0037FA62 /* SonaConnection.m */,
+			);
+			path = SonaHTTPSever;
+			sourceTree = "<group>";
+		};
+		04EA446E20EA2F320037FA62 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				04EA446F20EA2FA80037FA62 /* SonaSource.bundle */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		38753324731F7C46BF94371B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				9CF260FB6A975996AB856828 /* Pods-Sona-Oc.debug.xcconfig */,
 				FAC83E2438154DF71C94F7E4 /* Pods-Sona-Oc.release.xcconfig */,
+				3E60B7563D8F8C7C901CA773 /* Pods-libSona.debug.xcconfig */,
+				1D2B3C7E6D3D694754885632 /* Pods-libSona.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04EA445920EA2C210037FA62 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EA446C20EA2F230037FA62 /* SonaHTTPServer.h in Headers */,
+				04EA447320EA439E0037FA62 /* SonaConnection.h in Headers */,
+				04EA446020EA2C220037FA62 /* libSona.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		04EA442F20EA0B210037FA62 /* Sona-Oc */ = {
@@ -139,6 +228,7 @@
 				04EA442D20EA0B210037FA62 /* Frameworks */,
 				04EA442E20EA0B210037FA62 /* Resources */,
 				32D7B1D8F8924D637801D181 /* [CP] Embed Pods Frameworks */,
+				04EA446820EA2C220037FA62 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,6 +257,25 @@
 			productReference = 04EA444820EA0B230037FA62 /* Sona-OcUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		04EA445B20EA2C210037FA62 /* libSona */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EA446520EA2C220037FA62 /* Build configuration list for PBXNativeTarget "libSona" */;
+			buildPhases = (
+				B8619DB06B4C59D1A1048AE8 /* [CP] Check Pods Manifest.lock */,
+				04EA445720EA2C210037FA62 /* Sources */,
+				04EA445820EA2C210037FA62 /* Frameworks */,
+				04EA445920EA2C210037FA62 /* Headers */,
+				04EA445A20EA2C210037FA62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libSona;
+			productName = libSona;
+			productReference = 04EA445C20EA2C210037FA62 /* libSona.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -178,10 +287,18 @@
 				TargetAttributes = {
 					04EA442F20EA0B210037FA62 = {
 						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					04EA444720EA0B230037FA62 = {
 						CreatedOnToolsVersion = 9.3;
 						TestTargetID = 04EA442F20EA0B210037FA62;
+					};
+					04EA445B20EA2C210037FA62 = {
+						CreatedOnToolsVersion = 9.3;
 					};
 				};
 			};
@@ -200,6 +317,7 @@
 			targets = (
 				04EA442F20EA0B210037FA62 /* Sona-Oc */,
 				04EA444720EA0B230037FA62 /* Sona-OcUITests */,
+				04EA445B20EA2C210037FA62 /* libSona */,
 			);
 		};
 /* End PBXProject section */
@@ -219,6 +337,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EA445A20EA2C210037FA62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EA447020EA2FA80037FA62 /* SonaSource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +391,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B8619DB06B4C59D1A1048AE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-libSona-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -283,6 +427,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				04EA444D20EA0B230037FA62 /* Sona_OcUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EA445720EA2C210037FA62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EA447420EA439E0037FA62 /* SonaConnection.m in Sources */,
+				04EA446D20EA2F230037FA62 /* SonaHTTPServer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +653,68 @@
 			};
 			name = Release;
 		};
+		04EA446620EA2C220037FA62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E60B7563D8F8C7C901CA773 /* Pods-libSona.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6224U6EH75;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = libSona/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fission.libSona;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		04EA446720EA2C220037FA62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D2B3C7E6D3D694754885632 /* Pods-libSona.release.xcconfig */;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6224U6EH75;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = libSona/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fission.libSona;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -526,6 +741,15 @@
 			buildConfigurations = (
 				04EA445520EA0B230037FA62 /* Debug */,
 				04EA445620EA0B230037FA62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EA446520EA2C220037FA62 /* Build configuration list for PBXNativeTarget "libSona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EA446620EA2C220037FA62 /* Debug */,
+				04EA446720EA2C220037FA62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
