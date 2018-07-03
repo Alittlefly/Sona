@@ -65,7 +65,7 @@ static id SharedHTTPServer = nil;
     return _defaultFilePath;
 }
 - (NSString *)webPath {
-    NSString *webPath = [NSString stringWithFormat:@"http://127.0.0.1:%ld",_port];
+    NSString *webPath = [NSString stringWithFormat:@"http://127.0.0.1:%lu",(unsigned long)_port];
     return webPath;
 }
 - (NSString *)filePath {
@@ -86,6 +86,9 @@ static id SharedHTTPServer = nil;
     [self.server setDocumentRoot:self.defaultFilePath];
     
     [self.server setConnectionClass:[SonaConnection class]];
+}
+- (void)setConnectionClass:(Class)Class {
+    [self.server setConnectionClass:Class];
 }
 
 - (void)start {

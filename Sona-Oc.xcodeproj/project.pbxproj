@@ -19,8 +19,9 @@
 		04EA446C20EA2F230037FA62 /* SonaHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EA446A20EA2F230037FA62 /* SonaHTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04EA446D20EA2F230037FA62 /* SonaHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA446B20EA2F230037FA62 /* SonaHTTPServer.m */; };
 		04EA447020EA2FA80037FA62 /* SonaSource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04EA446F20EA2FA80037FA62 /* SonaSource.bundle */; };
-		04EA447320EA439E0037FA62 /* SonaConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EA447120EA439E0037FA62 /* SonaConnection.h */; };
+		04EA447320EA439E0037FA62 /* SonaConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EA447120EA439E0037FA62 /* SonaConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04EA447420EA439E0037FA62 /* SonaConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA447220EA439E0037FA62 /* SonaConnection.m */; };
+		04EA448620EB4B2F0037FA62 /* libSona.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04EA445C20EA2C210037FA62 /* libSona.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1FF329A36C15A654780CCE29 /* Pods_Sona_Oc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7EB8969BB73F375C7AD28E /* Pods_Sona_Oc.framework */; };
 		C29DFDC032AF78A55EEA0A8E /* Pods_libSona.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DFE702A16E6842A4F61D48 /* Pods_libSona.framework */; };
 /* End PBXBuildFile section */
@@ -33,6 +34,13 @@
 			remoteGlobalIDString = 04EA442F20EA0B210037FA62;
 			remoteInfo = "Sona-Oc";
 		};
+		04EA448420EB4B280037FA62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EA442820EA0B210037FA62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EA445B20EA2C210037FA62;
+			remoteInfo = libSona;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +50,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				04EA448620EB4B2F0037FA62 /* libSona.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -233,6 +242,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				04EA448520EB4B280037FA62 /* PBXTargetDependency */,
 			);
 			name = "Sona-Oc";
 			productName = "Sona-Oc";
@@ -447,6 +457,11 @@
 			target = 04EA442F20EA0B210037FA62 /* Sona-Oc */;
 			targetProxy = 04EA444920EA0B230037FA62 /* PBXContainerItemProxy */;
 		};
+		04EA448520EB4B280037FA62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EA445B20EA2C210037FA62 /* libSona */;
+			targetProxy = 04EA448420EB4B280037FA62 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -587,6 +602,7 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6224U6EH75;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Sona-Oc/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -607,6 +623,7 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6224U6EH75;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Sona-Oc/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
