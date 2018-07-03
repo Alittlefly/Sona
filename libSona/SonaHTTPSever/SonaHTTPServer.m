@@ -15,6 +15,7 @@
     NSUInteger _port;
     NSString *_defaultFilePath;
     NSString *_filePath;
+    BOOL _isRuning;
 }
 @property(nonatomic,strong)HTTPServer *server;
 @end
@@ -97,22 +98,31 @@ static id SharedHTTPServer = nil;
         [self.server setDocumentRoot:self.defaultFilePath];
     }
     
-    NSError *error;
-    [self.server start:&error];
-    if (!error) {
-        NSLog(@"启动成功");
+    _isRuning = [self.server isRunning];
+    
+    if (!_isRuning) {
+        NSError *error;
+        [self.server start:&error];
+        if (!error) {
+            NSLog(@"启动成功");
+        }
     }
 }
 
 - (void)stop {
-    [self.server stop];
+    
+    _isRuning = [self.server isRunning];
+    
+    if (_isRuning) {
+        [self.server stop];
+    }
 }
 
 - (void)applicationWillResignActive {
-    
+    [self start];
 }
 
 - (void)applicationDidEnterBackground {
-    
+    [self stop];
 }
 @end
