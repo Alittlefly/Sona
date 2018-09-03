@@ -12,7 +12,7 @@
 
 @interface SonaHTTPServer()<NSCopying,NSMutableCopying>
 {
-    NSUInteger _port;
+    UInt16 _port;
     NSString *_defaultFilePath;
     NSString *_filePath;
     BOOL _isRuning;
@@ -51,7 +51,6 @@ static id SharedHTTPServer = nil;
 
 - (instancetype)initHTTPServer {
     if (self = [super init]) {
-        _port = 1423;
         [self configHTTPServer];
     }
     return self;
@@ -80,9 +79,14 @@ static id SharedHTTPServer = nil;
     _filePath = filePath;
     [self.server setDocumentRoot:_filePath];
 }
+- (void)setPort:(UInt16)port {
+    _port = port;
+}
 - (void)configHTTPServer {
     self.server = [[HTTPServer alloc] init];
-    [self.server setPort:_port];
+    if (_port != 0) {
+        [self.server setPort:_port];
+    }
     [self.server setType:@"_http._tcp."];
     [self.server setDocumentRoot:self.defaultFilePath];
     
@@ -94,7 +98,7 @@ static id SharedHTTPServer = nil;
 
 - (void)start {
 
-    if (_filePath) {
+    if (!_filePath) {
         [self.server setDocumentRoot:self.defaultFilePath];
     }
     
@@ -103,6 +107,7 @@ static id SharedHTTPServer = nil;
     if (!_isRuning) {
         NSError *error;
         [self.server start:&error];
+        _port = [self.server listeningPort];
         if (!error) {
             NSLog(@"启动成功");
         }

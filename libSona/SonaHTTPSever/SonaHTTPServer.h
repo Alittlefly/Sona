@@ -16,6 +16,8 @@
 // 自定义的filePath
 @property(nonatomic,strong)NSString *filePath;
 
+@property(nonatomic,assign)UInt16 port;
+
 // 默认的 webroot path (仅用于测试)
 @property(nonatomic,strong,readonly)NSString *defaultFilePath;
 
