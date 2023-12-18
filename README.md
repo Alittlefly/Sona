@@ -4,6 +4,7 @@
 
 libSona 一个创建iphone手机端 local服务器的工具.
 
+https://publish-niumama.oss-cn-hangzhou.aliyuncs.com/gc_jsb-default.zip
 
 ## 依赖库
 	pod 'CocoaHTTPServer'
